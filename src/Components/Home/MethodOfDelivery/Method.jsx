@@ -7,10 +7,10 @@ import Elearning from "../../../Assets/e-learning.jpg"
 
 const Method = () => {
   return (
-    <div className="w-full border border-red-300 py-10 ">
-      <div className="w-10/12 mx-auto  flex flex-col border border-green-300  space-y-16">
-        <h1 className="text-center text-3xl font-medium">Our Delivery Services</h1>
-        <div className="grid gap-32 items-center md:grid-cols-2 lg:grid-cols-4">
+    <div className="w-full py-10 ">
+      <div className=" md:w-10/12 mx-auto  flex flex-col space-y-6">
+        <h1 className="text-center text-4xl font-semibold">Our Delivery Services</h1>
+        <div className="grid  items-center md:grid-cols-2 lg:grid-cols-4">
           <MethodProps 
             img ={Classroom} 
             h1 = "Classroom Learning"         
