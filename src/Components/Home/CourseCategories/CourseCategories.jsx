@@ -6,9 +6,9 @@ const CourseCategories = () => {
 
   return (
     <section className="w-full py-8">
-      <div className="flex flex-col items-center gap-12 ">
+      <div className="flex flex-col items-center gap-12">
         <h2 className="text-3xl font-semibold ">Course Categories</h2>
-      <div className="w-10/12 mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="w-11/12 items-center justify-center md:w-10/12 mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-4 ">
         {/* Other categories */}
         <a
           href="/course-category.html?category=cloud-computing"

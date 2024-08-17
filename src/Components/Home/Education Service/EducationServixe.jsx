@@ -8,7 +8,7 @@ import Image4 from "../../../Assets/summer-tech-academy.png";
 const EducationServixe = () => {
   return (
     <section className="w-full ">
-      <div className="w-10/12 mx-auto flex flex-col items-center gap-16">
+      <div className="w-11/12 mx-auto flex flex-col items-center gap-16">
         <h2 className="capitalize text-4xl font-semibold text-center">Education Services</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center gap-6">
           <TrainingProps

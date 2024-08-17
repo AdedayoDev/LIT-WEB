@@ -1,4 +1,3 @@
-// src/components/Carousel.js
 import React, { useState, useEffect } from "react";
 
 const Carousel = ({ images }) => {
@@ -49,7 +48,7 @@ const Carousel = ({ images }) => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-full h-[450px] bg-cover bg-center rounded-xl"
+            className="flex-shrink-0 w-full h-[200px] md:h-[450px] bg-cover bg-center rounded-xl"
             style={{ backgroundImage: `url(${image})` }}
           ></div>
         ))}
